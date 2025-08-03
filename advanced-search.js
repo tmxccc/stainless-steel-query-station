@@ -35,31 +35,41 @@ const AdvancedSearch = {
                                 <option value="GB">GB</option>
                                 <option value="ASTM">ASTM</option>
                                 <option value="EN">EN</option>
+                                <option value="nickel">镍基合金</option>
                             </select>
                         </div>
                         <div>
                             <label class="block text-xs text-gray-400 mb-1">类型</label>
                             <select id="filter-type" class="w-full bg-gray-700 border border-gray-600 rounded px-2 py-1 text-sm">
                                 <option value="">全部类型</option>
-                                <option value="奥氏体">奥氏体</option>
-                                <option value="铁素体">铁素体</option>
-                                <option value="马氏体">马氏体</option>
-                                <option value="双相钢">双相钢</option>
+                                <option value="austenitic">奥氏体</option>
+                                <option value="ferritic">铁素体</option>
+                                <option value="martensitic">马氏体</option>
+                                <option value="duplex">双相钢</option>
+                                <option value="precipitation-hardening">沉淀硬化</option>
+                                <option value="nickel-chromium">镍铬合金</option>
+                                <option value="nickel-copper">镍铜合金</option>
+                                <option value="nickel-chromium-molybdenum">镍铬钼合金</option>
+                                <option value="nickel-chromium-iron">镍铬铁合金</option>
+                                <option value="nickel-chromium-aluminum">镍铬铝合金</option>
+                                <option value="nickel-copper-aluminum">镍铜铝合金</option>
                             </select>
                         </div>
                         <div>
                             <label class="block text-xs text-gray-400 mb-1">牌号系列</label>
                             <select id="filter-family" class="w-full bg-gray-700 border border-gray-600 rounded px-2 py-1 text-sm">
                                 <option value="">全部系列</option>
-                                <option value="304">304系列</option>
-                                <option value="316">316系列</option>
-                                <option value="321">321系列</option>
-                                <option value="347">347系列</option>
-                                <option value="2205">2205系列</option>
-                                <option value="2507">2507系列</option>
-                                <option value="430">430系列</option>
-                                <option value="410">410系列</option>
-                                <option value="420">420系列</option>
+                                <option value="300系列">300系列</option>
+                                <option value="400系列">400系列</option>
+                                <option value="200系列">200系列</option>
+                                <option value="沉淀硬化系列">沉淀硬化系列</option>
+                                <option value="镍基合金">镍基合金</option>
+                                <option value="chromium-nickel">铬镍系列</option>
+                                <option value="chromium-nickel-molybdenum">铬镍钼系列</option>
+                                <option value="chromium-nickel-titanium">铬镍钛系列</option>
+                                <option value="chromium-nickel-copper">铬镍铜系列</option>
+                                <option value="chromium">铬系列</option>
+                                <option value="nickel-based">镍基系列</option>
                             </select>
                         </div>
                     </div>
@@ -95,6 +105,22 @@ const AdvancedSearch = {
                         <label class="flex items-center gap-2 text-sm">
                             <input type="checkbox" id="has-niobium" class="rounded">
                             <span class="text-gray-300">含铌</span>
+                        </label>
+                        <label class="flex items-center gap-2 text-sm">
+                            <input type="checkbox" id="has-aluminum" class="rounded">
+                            <span class="text-gray-300">含铝</span>
+                        </label>
+                        <label class="flex items-center gap-2 text-sm">
+                            <input type="checkbox" id="has-copper" class="rounded">
+                            <span class="text-gray-300">含铜</span>
+                        </label>
+                        <label class="flex items-center gap-2 text-sm">
+                            <input type="checkbox" id="has-tungsten" class="rounded">
+                            <span class="text-gray-300">含钨</span>
+                        </label>
+                        <label class="flex items-center gap-2 text-sm">
+                            <input type="checkbox" id="has-cobalt" class="rounded">
+                            <span class="text-gray-300">含钴</span>
                         </label>
                     </div>
                     
@@ -163,6 +189,10 @@ const AdvancedSearch = {
         this.filters.hasMolybdenum = document.getElementById('has-molybdenum').checked;
         this.filters.hasTitanium = document.getElementById('has-titanium').checked;
         this.filters.hasNiobium = document.getElementById('has-niobium').checked;
+        this.filters.hasAluminum = document.getElementById('has-aluminum').checked;
+        this.filters.hasCopper = document.getElementById('has-copper').checked;
+        this.filters.hasTungsten = document.getElementById('has-tungsten').checked;
+        this.filters.hasCobalt = document.getElementById('has-cobalt').checked;
     },
 
     clearAllFilters() {
@@ -176,6 +206,10 @@ const AdvancedSearch = {
         document.getElementById('has-molybdenum').checked = false;
         document.getElementById('has-titanium').checked = false;
         document.getElementById('has-niobium').checked = false;
+        document.getElementById('has-aluminum').checked = false;
+        document.getElementById('has-copper').checked = false;
+        document.getElementById('has-tungsten').checked = false;
+        document.getElementById('has-cobalt').checked = false;
         
         this.filters = {
             standard: '',
@@ -187,7 +221,11 @@ const AdvancedSearch = {
             maxTensile: '',
             hasMolybdenum: false,
             hasTitanium: false,
-            hasNiobium: false
+            hasNiobium: false,
+            hasAluminum: false,
+            hasCopper: false,
+            hasTungsten: false,
+            hasCobalt: false
         };
         
         this.applyAdvancedSearch();
@@ -265,6 +303,22 @@ const AdvancedSearch = {
 
         if (this.filters.hasNiobium) {
             filteredData = filteredData.filter(item => item.nb && item.nb !== '—');
+        }
+
+        if (this.filters.hasAluminum) {
+            filteredData = filteredData.filter(item => item.al && item.al !== '—');
+        }
+
+        if (this.filters.hasCopper) {
+            filteredData = filteredData.filter(item => item.cu && item.cu !== '—');
+        }
+
+        if (this.filters.hasTungsten) {
+            filteredData = filteredData.filter(item => item.w && item.w !== '—');
+        }
+
+        if (this.filters.hasCobalt) {
+            filteredData = filteredData.filter(item => item.co && item.co !== '—');
         }
 
         // 更新搜索结果

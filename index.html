@@ -39,6 +39,12 @@
     <script src="data-enhancement.js"></script>
     <script src="advanced-search.js"></script>
     <script src="data-visualization.js"></script>
+    <script src="search-enhancement.js"></script>
+    <script src="mobile-optimization.js"></script>
+    <script src="extended-data.js"></script>
+    <script src="favorites.js"></script>
+    <script src="performance-optimization.js"></script>
+    <script src="analytics.js"></script>
     <style>
         body {
             font-family: 'Inter', 'Microsoft YaHei', sans-serif;
@@ -84,7 +90,16 @@
         <!-- 头部 -->
         <header class="flex-shrink-0 bg-gray-900/70 backdrop-blur-md border-b border-gray-700 p-4 z-20">
             <div class="max-w-screen-2xl mx-auto">
-                <h1 class="text-lg md:text-xl font-bold text-white text-center">不锈钢牌号查询工作站（台州国富 唐淼 2025 Beta 1.3）</h1>
+                <div class="flex flex-col items-center space-y-2">
+                    <h1 class="text-xl md:text-2xl font-bold text-white">不锈钢牌号查询工作站</h1>
+                    <div class="flex items-center space-x-4 text-sm text-gray-400">
+                        <span>台州国富</span>
+                        <span>•</span>
+                        <span>唐淼</span>
+                        <span>•</span>
+                        <span>2025 Beta 1.3</span>
+                    </div>
+                </div>
             </div>
         </header>
 
@@ -93,9 +108,9 @@
             <!-- 左侧：搜索与操作区 -->
             <div class="w-full md:w-2/5 flex flex-col border-r border-gray-700">
                 <!-- 搜索框区域 -->
-                <div class="p-4 border-b border-gray-700">
+                <div class="p-4 border-b border-gray-700 search-container">
                     <div class="relative">
-                        <input type="text" id="globalSearchInput" placeholder="输入牌号、标准、UNS编号..." class="w-full bg-gray-800 border border-gray-600 rounded-lg py-3 px-4 text-base focus:outline-none focus:ring-2 focus:ring-blue-500">
+                        <input type="text" id="searchInput" placeholder="输入牌号、标准、UNS编号..." class="w-full bg-gray-800 border border-gray-600 rounded-lg py-3 px-4 text-base focus:outline-none focus:ring-2 focus:ring-blue-500">
                         <svg class="absolute right-4 top-1/2 -translate-y-1/2 h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
                     </div>
                 </div>
