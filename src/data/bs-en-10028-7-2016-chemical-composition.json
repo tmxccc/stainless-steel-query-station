@@ -1,0 +1,173 @@
+{
+  "standard": "BS EN 10028-7:2016",
+  "title": "不锈钢化学成分分析表",
+  "description": "压力容器用平轧不锈钢产品技术标准",
+  "tables": {
+    "table_4": {
+      "title": "奥氏体不锈钢化学成分分析",
+      "page": 14,
+      "steels": [
+        {
+          "steel_name": "X2CrNi23-4",
+          "steel_number": "1.4362",
+          "composition": {
+            "C": "≤0.030",
+            "Si": "≤1.00",
+            "Mn": "≤2.00",
+            "P": "≤0.040",
+            "S": "≤0.015",
+            "N": "0.10 to 0.28",
+            "Cr": "21.0 to 24.0",
+            "Cu": "-",
+            "Mo": "≤0.05",
+            "Ni": "1.00 to 2.50",
+            "W": "-"
+          }
+        },
+        {
+          "steel_name": "X2CrNiN23-4",
+          "steel_number": "1.4362",
+          "composition": {
+            "C": "≤0.030",
+            "Si": "≤1.00",
+            "Mn": "4.0 to 6.0",
+            "P": "≤0.035",
+            "S": "≤0.015",
+            "N": "0.20 to 0.25",
+            "Cr": "21.0 to 24.0",
+            "Cu": "-",
+            "Mo": "0.10 to 0.60",
+            "Ni": "1.50 to 3.00",
+            "W": "-"
+          }
+        },
+        {
+          "steel_name": "X2CrNiLCu18-9-4",
+          "steel_number": "1.4362",
+          "composition": {
+            "C": "≤0.030",
+            "Si": "≤1.00",
+            "Mn": "≤2.00",
+            "P": "≤0.035",
+            "S": "≤0.015",
+            "N": "0.05 to 0.20",
+            "Cr": "22.0 to 24.0",
+            "Cu": "-",
+            "Mo": "3.0 to 4.5",
+            "Ni": "3.5 to 5.5",
+            "W": "-"
+          }
+        },
+        {
+          "steel_name": "X2CrNiMoLCu25-4-3",
+          "steel_number": "1.4410",
+          "composition": {
+            "C": "≤0.030",
+            "Si": "≤1.00",
+            "Mn": "≤2.00",
+            "P": "≤0.035",
+            "S": "≤0.015",
+            "N": "0.24 to 0.35",
+            "Cr": "24.0 to 26.0",
+            "Cu": "-",
+            "Mo": "2.50 to 3.5",
+            "Ni": "6.0 to 8.0",
+            "W": "-"
+          }
+        },
+        {
+          "steel_name": "X2CrNiMoLCu25-3",
+          "steel_number": "1.4462",
+          "composition": {
+            "C": "≤0.030",
+            "Si": "≤1.00",
+            "Mn": "≤2.00",
+            "P": "≤0.035",
+            "S": "≤0.015",
+            "N": "0.10 to 0.22",
+            "Cr": "21.0 to 23.0",
+            "Cu": "-",
+            "Mo": "2.50 to 3.5",
+            "Ni": "4.5 to 6.5",
+            "W": "-"
+          }
+        },
+        {
+          "steel_name": "X2CrNiMoLCu25-4-3",
+          "steel_number": "1.4462",
+          "composition": {
+            "C": "≤0.030",
+            "Si": "≤1.00",
+            "Mn": "4.0 to 6.0",
+            "P": "≤0.035",
+            "S": "≤0.030",
+            "N": "0.05 to 0.20",
+            "Cr": "19.5 to 21.5",
+            "Cu": "≤1.00",
+            "Mo": "0.10 to 0.60",
+            "Ni": "1.50 to 2.50",
+            "W": "-"
+          }
+        },
+        {
+          "steel_name": "X2CrNiMoLCu25-7-4",
+          "steel_number": "1.4442",
+          "composition": {
+            "C": "≤0.030",
+            "Si": "≤1.00",
+            "Mn": "≤1.00",
+            "P": "≤0.035",
+            "S": "≤0.015",
+            "N": "0.20 to 0.30",
+            "Cr": "24.0 to 26.0",
+            "Cu": "0.50 to 1.00",
+            "Mo": "3.0 to 4.0",
+            "Ni": "6.0 to 8.0",
+            "W": "-"
+          }
+        },
+        {
+          "steel_name": "X2CrNiMoLCu25-6-3",
+          "steel_number": "1.4507",
+          "composition": {
+            "C": "≤0.030",
+            "Si": "≤0.70",
+            "Mn": "2.5 to 4.0",
+            "P": "≤0.035",
+            "S": "≤0.015",
+            "N": "0.20 to 0.30",
+            "Cr": "24.0 to 26.0",
+            "Cu": "1.0 to 2.50",
+            "Mo": "3.0 to 4.0",
+            "Ni": "5.0 to 7.0",
+            "W": "-"
+          }
+        },
+        {
+          "steel_name": "X2CrNiMoLCu24-4-3",
+          "steel_number": "1.4662",
+          "composition": {
+            "C": "≤0.030",
+            "Si": "≤0.70",
+            "Mn": "≤4.0",
+            "P": "≤0.035",
+            "S": "≤0.005",
+            "N": "0.20 to 0.30",
+            "Cr": "23.0 to 25.0",
+            "Cu": "0.10 to 0.80",
+            "Mo": "1.00 to 2.00",
+            "Ni": "3.0 to 4.5",
+            "W": "-"
+          }
+        }
+      ],
+      "notes": [
+        "Elements not listed in this table shall not be intentionally added to the steel without the agreement of the purchaser except for finishing the cast. All appropriate precautions are to be taken to prevent the addition of such elements from raw materials and scrap that would impair the properties and the suitability of the steel.",
+        "Purchaser steel.",
+        "Other elements: Cr + 3.3 Mo + 0.5 W ≥ 40.0 %.",
+        "Other elements: Y: 0.03 to 0.50 %; Cr + 3.3 Mo + 16 N ≥ 40.0 %.",
+        "Other elements: Y: 0.03 to 0.50 %; Cr + 3.3 Mo + 16 N ≥ 40.0 %."
+      ]
+    }
+  }
+}

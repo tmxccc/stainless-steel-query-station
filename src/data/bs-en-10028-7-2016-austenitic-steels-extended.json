@@ -1,0 +1,110 @@
+{
+  "standard": "BS EN 10028-7:2016",
+  "title": "奥氏体不锈钢化学成分分析表(扩展)",
+  "description": "压力容器用平轧奥氏体不锈钢产品技术标准 - 表格3",
+  "tables": {
+    "table_3": {
+      "title": "奥氏体不锈钢化学成分分析(扩展表)",
+      "page": 12,
+      "steels": [
+        {
+          "steel_name": "X2CrNi18-10",
+          "steel_number": "1.4301",
+          "composition": {
+            "C": "≤0.07",
+            "Si": "≤1.00",
+            "Mn": "≤2.00",
+            "P": "≤0.045",
+            "S": "≤0.015",
+            "N": "≤0.10",
+            "Cr": "17.5 to 19.5",
+            "Cu": "-",
+            "Mo": "-",
+            "Ni": "8.0 to 10.5",
+            "Nb": "-",
+            "Ti": "-"
+          }
+        },
+        {
+          "steel_name": "X5CrNi18-10",
+          "steel_number": "1.4301",
+          "composition": {
+            "C": "≤0.07",
+            "Si": "≤1.00",
+            "Mn": "≤2.00",
+            "P": "≤0.045",
+            "S": "≤0.015",
+            "N": "≤0.10",
+            "Cr": "17.5 to 19.5",
+            "Cu": "-",
+            "Mo": "-",
+            "Ni": "8.0 to 10.5",
+            "Nb": "-",
+            "Ti": "-"
+          }
+        },
+        {
+          "steel_name": "X2CrNi19-11",
+          "steel_number": "1.4306",
+          "composition": {
+            "C": "≤0.030",
+            "Si": "≤1.00",
+            "Mn": "≤2.00",
+            "P": "≤0.045",
+            "S": "≤0.015",
+            "N": "≤0.10",
+            "Cr": "18.0 to 20.0",
+            "Cu": "-",
+            "Mo": "-",
+            "Ni": "10.0 to 12.0",
+            "Nb": "-",
+            "Ti": "-"
+          }
+        },
+        {
+          "steel_name": "X6CrNiTi18-10",
+          "steel_number": "1.4541",
+          "composition": {
+            "C": "≤0.08",
+            "Si": "≤1.00",
+            "Mn": "≤2.00",
+            "P": "≤0.045",
+            "S": "≤0.015",
+            "N": "≤0.10",
+            "Cr": "17.0 to 19.0",
+            "Cu": "-",
+            "Mo": "-",
+            "Ni": "9.0 to 12.0",
+            "Nb": "-",
+            "Ti": "5×(C+N) to 0.70"
+          }
+        },
+        {
+          "steel_name": "X6CrNiNb18-10",
+          "steel_number": "1.4550",
+          "composition": {
+            "C": "≤0.08",
+            "Si": "≤1.00",
+            "Mn": "≤2.00",
+            "P": "≤0.045",
+            "S": "≤0.015",
+            "N": "≤0.10",
+            "Cr": "17.0 to 20.0",
+            "Cu": "-",
+            "Mo": "-",
+            "Ni": "9.0 to 12.0",
+            "Nb": "10×C to 1.00",
+            "Ti": "-"
+          }
+        }
+      ],
+      "notes": [
+        "Elements not listed in this table shall not be intentionally added to the steel without the agreement of the purchaser except for finishing the cast.",
+        "All appropriate precautions are to be taken to prevent the addition of such elements from raw materials and scrap that would impair the properties and the suitability of the steel.",
+        "Purchaser steel.",
+        "Other elements: Cr + 3.3 Mo + 0.5 W ≥ 40.0 %.",
+        "Other elements: Y: 0.03 to 0.50 %; Cr + 3.3 Mo + 16 N ≥ 40.0 %."
+      ]
+    }
+  }
+}

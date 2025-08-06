@@ -1,0 +1,120 @@
+{
+  "name": "不锈钢牌号查询工作站",
+  "short_name": "不锈钢查询",
+  "description": "专业的不锈钢材料数据查询平台，支持多标准对比和数据可视化",
+  "version": "1.3.0",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#1f2937",
+  "background_color": "#111827",
+  "scope": "/",
+  "lang": "zh-CN",
+  "dir": "ltr",
+  "categories": ["productivity", "utilities", "education"],
+  "icons": [
+    {
+      "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIHZpZXdCb3g9IjAgMCA0OCA0OCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjQ4IiBoZWlnaHQ9IjQ4IiByeD0iOCIgZmlsbD0iIzFmMjkzNyIvPgo8cGF0aCBkPSJNMTIgMTZIMzZWMzJIMTJWMTZaIiBzdHJva2U9IiNmZmZmZmYiIHN0cm9rZS13aWR0aD0iMiIgZmlsbD0ibm9uZSIvPgo8cGF0aCBkPSJNMTYgMjBIMzJNMTYgMjRIMzJNMTYgMjhIMjgiIHN0cm9rZT0iI2ZmZmZmZiIgc3Ryb2tlLXdpZHRoPSIyIi8+CjxjaXJjbGUgY3g9IjM2IiBjeT0iMTIiIHI9IjQiIGZpbGw9IiMzYjgyZjYiLz4KPC9zdmc+",
+      "sizes": "48x48",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNzIiIGhlaWdodD0iNzIiIHZpZXdCb3g9IjAgMCA3MiA3MiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjcyIiBoZWlnaHQ9IjcyIiByeD0iMTIiIGZpbGw9IiMxZjI5MzciLz4KPHBhdGggZD0iTTE4IDI0SDU0VjQ4SDE4VjI0WiIgc3Ryb2tlPSIjZmZmZmZmIiBzdHJva2Utd2lkdGg9IjMiIGZpbGw9Im5vbmUiLz4KPHBhdGggZD0iTTI0IDMwSDQ4TTI0IDM2SDQ4TTI0IDQySDQyIiBzdHJva2U9IiNmZmZmZmYiIHN0cm9rZS13aWR0aD0iMyIvPgo8Y2lyY2xlIGN4PSI1NCIgY3k9IjE4IiByPSI2IiBmaWxsPSIjM2I4MmY2Ii8+Cjwvc3ZnPg==",
+      "sizes": "72x72",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOTYiIGhlaWdodD0iOTYiIHZpZXdCb3g9IjAgMCA5NiA5NiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9Ijk2IiBoZWlnaHQ9Ijk2IiByeD0iMTYiIGZpbGw9IiMxZjI5MzciLz4KPHBhdGggZD0iTTI0IDMySDcyVjY0SDI0VjMyWiIgc3Ryb2tlPSIjZmZmZmZmIiBzdHJva2Utd2lkdGg9IjQiIGZpbGw9Im5vbmUiLz4KPHBhdGggZD0iTTMyIDQwSDY0TTMyIDQ4SDY0TTMyIDU2SDU2IiBzdHJva2U9IiNmZmZmZmYiIHN0cm9rZS13aWR0aD0iNCIvPgo8Y2lyY2xlIGN4PSI3MiIgY3k9IjI0IiByPSI4IiBmaWxsPSIjM2I4MmY2Ii8+Cjwvc3ZnPg==",
+      "sizes": "96x96",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQ0IiBoZWlnaHQ9IjE0NCIgdmlld0JveD0iMCAwIDE0NCAxNDQiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIxNDQiIGhlaWdodD0iMTQ0IiByeD0iMjQiIGZpbGw9IiMxZjI5MzciLz4KPHBhdGggZD0iTTM2IDQ4SDEwOFY5NkgzNlY0OFoiIHN0cm9rZT0iI2ZmZmZmZiIgc3Ryb2tlLXdpZHRoPSI2IiBmaWxsPSJub25lIi8+CjxwYXRoIGQ9Ik00OCA2MEg5Nk00OCA3Mkg5Nk00OCA4NEg4NCIgc3Ryb2tlPSIjZmZmZmZmIiBzdHJva2Utd2lkdGg9IjYiLz4KPGNpcmNsZSBjeD0iMTA4IiBjeT0iMzYiIHI9IjEyIiBmaWxsPSIjM2I4MmY2Ii8+Cjwvc3ZnPg==",
+      "sizes": "144x144",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTkyIiBoZWlnaHQ9IjE5MiIgdmlld0JveD0iMCAwIDE5MiAxOTIiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIxOTIiIGhlaWdodD0iMTkyIiByeD0iMzIiIGZpbGw9IiMxZjI5MzciLz4KPHBhdGggZD0iTTQ4IDY0SDE0NFYxMjhINDhWNjRaIiBzdHJva2U9IiNmZmZmZmYiIHN0cm9rZS13aWR0aD0iOCIgZmlsbD0ibm9uZSIvPgo8cGF0aCBkPSJNNjQgODBIMTI4TTY0IDk2SDEyOE02NCAxMTJIMTEyIiBzdHJva2U9IiNmZmZmZmYiIHN0cm9rZS13aWR0aD0iOCIvPgo8Y2lyY2xlIGN4PSIxNDQiIGN5PSI0OCIgcj0iMTYiIGZpbGw9IiMzYjgyZjYiLz4KPC9zdmc+",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDUxMiA1MTIiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiByeD0iNjQiIGZpbGw9IiMxZjI5MzciLz4KPHBhdGggZD0iTTEyOCAxNzBIMzg0VjM0MkgxMjhWMTcwWiIgc3Ryb2tlPSIjZmZmZmZmIiBzdHJva2Utd2lkdGg9IjIwIiBmaWxsPSJub25lIi8+CjxwYXRoIGQ9Ik0xNzAgMjEzSDM0Mk0xNzAgMjU2SDM0Mk0xNzAgMjk5SDI5OSIgc3Ryb2tlPSIjZmZmZmZmIiBzdHJva2Utd2lkdGg9IjIwIi8+CjxjaXJjbGUgY3g9IjM4NCIgY3k9IjEyOCIgcj0iNDIiIGZpbGw9IiMzYjgyZjYiLz4KPC9zdmc+",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "快速搜索",
+      "short_name": "搜索",
+      "description": "快速搜索不锈钢牌号",
+      "url": "/?action=search",
+      "icons": [
+        {
+          "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOTYiIGhlaWdodD0iOTYiIHZpZXdCb3g9IjAgMCA5NiA5NiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iNDAiIGN5PSI0MCIgcj0iMjQiIHN0cm9rZT0iIzNiODJmNiIgc3Ryb2tlLXdpZHRoPSI0IiBmaWxsPSJub25lIi8+CjxwYXRoIGQ9Ik02MCA2MEw3MiA3MiIgc3Ryb2tlPSIjM2I4MmY2IiBzdHJva2Utd2lkdGg9IjQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgo8L3N2Zz4=",
+          "sizes": "96x96",
+          "type": "image/svg+xml"
+        }
+      ]
+    },
+    {
+      "name": "数据对比",
+      "short_name": "对比",
+      "description": "查看材料对比数据",
+      "url": "/?action=compare",
+      "icons": [
+        {
+          "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOTYiIGhlaWdodD0iOTYiIHZpZXdCb3g9IjAgMCA5NiA5NiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3QgeD0iMTYiIHk9IjMyIiB3aWR0aD0iMjQiIGhlaWdodD0iNDAiIGZpbGw9IiMzYjgyZjYiLz4KPHJlY3QgeD0iNTYiIHk9IjI0IiB3aWR0aD0iMjQiIGhlaWdodD0iNDgiIGZpbGw9IiMxMGI5ODEiLz4KPC9zdmc+",
+          "sizes": "96x96",
+          "type": "image/svg+xml"
+        }
+      ]
+    },
+    {
+      "name": "数据统计",
+      "short_name": "统计",
+      "description": "查看使用统计数据",
+      "url": "/?action=stats",
+      "icons": [
+        {
+          "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOTYiIGhlaWdodD0iOTYiIHZpZXdCb3g9IjAgMCA5NiA5NiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTI0IDcyTDQwIDQ4TDU2IDU2TDcyIDMyIiBzdHJva2U9IiMzYjgyZjYiIHN0cm9rZS13aWR0aD0iNCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CjxjaXJjbGUgY3g9IjI0IiBjeT0iNzIiIHI9IjQiIGZpbGw9IiMzYjgyZjYiLz4KPGNpcmNsZSBjeD0iNDAiIGN5PSI0OCIgcj0iNCIgZmlsbD0iIzNiODJmNiIvPgo8Y2lyY2xlIGN4PSI1NiIgY3k9IjU2IiByPSI0IiBmaWxsPSIjM2I4MmY2Ii8+CjxjaXJjbGUgY3g9IjcyIiBjeT0iMzIiIHI9IjQiIGZpbGw9IiMzYjgyZjYiLz4KPC9zdmc+",
+          "sizes": "96x96",
+          "type": "image/svg+xml"
+        }
+      ]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIwIiBoZWlnaHQ9IjU2OCIgdmlld0JveD0iMCAwIDMyMCA1NjgiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIzMjAiIGhlaWdodD0iNTY4IiBmaWxsPSIjMTExODI3Ii8+CjxyZWN0IHg9IjE2IiB5PSI2NCIgd2lkdGg9IjI4OCIgaGVpZ2h0PSI0OCIgcng9IjgiIGZpbGw9IiMyNTI1MjUiLz4KPHRleHQgeD0iMzIiIHk9Ijg4IiBmaWxsPSIjOWNhM2FmIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNCIgZm9udC13ZWlnaHQ9IjQwMCI+U1MzMTYsIDMwNEwsIEFJU0kgMzE2Li4uPC90ZXh0Pgo8cmVjdCB4PSIxNiIgeT0iMTI4IiB3aWR0aD0iMjg4IiBoZWlnaHQ9IjgwIiByeD0iOCIgZmlsbD0iIzI1MjUyNSIvPgo8dGV4dCB4PSIzMiIgeT0iMTUyIiBmaWxsPSIjZmZmZmZmIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNiIgZm9udC13ZWlnaHQ9IjYwMCI+U1MzMTY8L3RleHQ+Cjx0ZXh0IHg9IjMyIiB5PSIxNzIiIGZpbGw9IiM5Y2EzYWYiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyIj7lpb3msI7kvZPkuI3plYfpkoh8QVNUTSAzMTY8L3RleHQ+Cjx0ZXh0IHg9IjMyIiB5PSIxODgiIGZpbGw9IiM5Y2EzYWYiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyIj5DcjogMTYtMTglLCBOaTogMTAtMTQlPC90ZXh0Pgo8Y2lyY2xlIGN4PSIyNzIiIGN5PSIxNjgiIHI9IjE2IiBmaWxsPSIjM2I4MmY2Ii8+Cjx0ZXh0IHg9IjI2OCIgeT0iMTcyIiBmaWxsPSIjZmZmZmZmIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMiIgZm9udC13ZWlnaHQ9IjYwMCI+KzwvdGV4dD4KPC9zdmc+",
+      "sizes": "320x568",
+      "type": "image/svg+xml",
+      "form_factor": "narrow",
+      "label": "移动端搜索界面"
+    },
+    {
+      "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNzY4IiBoZWlnaHQ9IjEwMjQiIHZpZXdCb3g9IjAgMCA3NjggMTAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9Ijc2OCIgaGVpZ2h0PSIxMDI0IiBmaWxsPSIjMTExODI3Ii8+CjxyZWN0IHg9IjMyIiB5PSI2NCIgd2lkdGg9IjcwNCIgaGVpZ2h0PSI2NCIgcng9IjEyIiBmaWxsPSIjMjUyNTI1Ii8+Cjx0ZXh0IHg9IjQ4IiB5PSI5NiIgZmlsbD0iIzljYTNhZiIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTgiIGZvbnQtd2VpZ2h0PSI0MDAiPuaQnOe0ouS4jemdoumSouWPt+OAgea jh+WHhuOAgeWMluWtpuaIkOWIhzwvdGV4dD4KPHJlY3QgeD0iMzIiIHk9IjE2MCIgd2lkdGg9IjM0NCIgaGVpZ2h0PSI0MDAiIHJ4PSIxMiIgZmlsbD0iIzI1MjUyNSIvPgo8cmVjdCB4PSI0MDgiIHk9IjE2MCIgd2lkdGg9IjMyOCIgaGVpZ2h0PSI0MDAiIHJ4PSIxMiIgZmlsbD0iIzI1MjUyNSIvPgo8dGV4dCB4PSI0OCIgeT0iMTkyIiBmaWxsPSIjZmZmZmZmIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIyMCIgZm9udC13ZWlnaHQ9IjYwMCI+5pCc57Si57uT5p6cPC90ZXh0Pgo8dGV4dCB4PSI0MjQiIHk9IjE5MiIgZmlsbD0iI2ZmZmZmZiIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMjAiIGZvbnQtd2VpZ2h0PSI2MDAiPuWvueavlOaVsOaNrjwvdGV4dD4KPC9zdmc+",
+      "sizes": "768x1024",
+      "type": "image/svg+xml",
+      "form_factor": "wide",
+      "label": "平板端对比界面"
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "edge_side_panel": {
+    "preferred_width": 400
+  },
+  "launch_handler": {
+    "client_mode": "navigate-existing"
+  },
+  "handle_links": "preferred",
+  "capture_links": "existing-client-navigate"
+}

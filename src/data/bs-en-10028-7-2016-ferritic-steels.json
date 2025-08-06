@@ -1,0 +1,207 @@
+{
+  "standard": "BS EN 10028-7:2016",
+  "title": "铁素体不锈钢化学成分分析表",
+  "description": "压力容器用平轧铁素体不锈钢产品技术标准",
+  "tables": {
+    "table_1": {
+      "title": "铁素体不锈钢化学成分分析",
+      "page": 10,
+      "steels": [
+        {
+          "steel_name": "X2CrTi12",
+          "steel_number": "1.4003",
+          "composition": {
+            "C": "≤0.030",
+            "Si": "≤1.00",
+            "Mn": "≤1.50",
+            "P": "≤0.040",
+            "S": "≤0.015",
+            "N": "≤0.030",
+            "Cr": "10.5 to 12.5",
+            "Mo": "-",
+            "Nb": "-",
+            "Ni": "≤0.30",
+            "Ti": "≤1.00"
+          }
+        },
+        {
+          "steel_name": "X2CrTiNb18",
+          "steel_number": "1.4509",
+          "composition": {
+            "C": "≤0.030",
+            "Si": "≤1.00",
+            "Mn": "≤1.00",
+            "P": "≤0.040",
+            "S": "≤0.015",
+            "N": "-",
+            "Cr": "17.5 to 18.5",
+            "Mo": "-",
+            "Nb": "0.10 to 1.40",
+            "Ni": "-",
+            "Ti": "(4 × C) + 0.15 to 0.80"
+          }
+        },
+        {
+          "steel_name": "X2CrTi17",
+          "steel_number": "1.4510",
+          "composition": {
+            "C": "≤0.025",
+            "Si": "≤1.00",
+            "Mn": "≤1.00",
+            "P": "≤0.040",
+            "S": "≤0.015",
+            "N": "-",
+            "Cr": "16.0 to 18.0",
+            "Mo": "-",
+            "Nb": "-",
+            "Ni": "-",
+            "Ti": "(4 × C) + 0.15 to 0.80"
+          }
+        },
+        {
+          "steel_name": "X2CrMoTi17-1",
+          "steel_number": "1.4513",
+          "composition": {
+            "C": "≤0.025",
+            "Si": "≤1.00",
+            "Mn": "≤1.00",
+            "P": "≤0.040",
+            "S": "≤0.015",
+            "N": "≤0.020",
+            "Cr": "16.0 to 18.0",
+            "Mo": "0.80 to 1.40",
+            "Nb": "-",
+            "Ni": "≤0.50",
+            "Ti": "(4 × C) + 0.15 to 0.80"
+          }
+        },
+        {
+          "steel_name": "X6CrNiTi12",
+          "steel_number": "1.4516",
+          "composition": {
+            "C": "≤0.08",
+            "Si": "≤0.50",
+            "Mn": "≤1.50",
+            "P": "≤0.040",
+            "S": "≤0.015",
+            "N": "≤0.015",
+            "Cr": "10.5 to 12.5",
+            "Mo": "-",
+            "Nb": "-",
+            "Ni": "≤0.50",
+            "Ti": "(4 × C) + 0.15 to 0.80"
+          }
+        },
+        {
+          "steel_name": "X2CrTi17",
+          "steel_number": "1.4520",
+          "composition": {
+            "C": "≤0.025",
+            "Si": "≤0.50",
+            "Mn": "≤1.00",
+            "P": "≤0.040",
+            "S": "≤0.015",
+            "N": "≤0.015",
+            "Cr": "17.0 to 20.0",
+            "Mo": "-",
+            "Nb": "-",
+            "Ni": "-",
+            "Ti": "(4 × C) + 0.15 to 0.80"
+          }
+        },
+        {
+          "steel_name": "X2CrMoTi18-2",
+          "steel_number": "1.4521",
+          "composition": {
+            "C": "≤0.025",
+            "Si": "≤1.00",
+            "Mn": "≤1.00",
+            "P": "≤0.040",
+            "S": "≤0.015",
+            "N": "≤0.040",
+            "Cr": "18.0 to 20.0",
+            "Mo": "1.80 to 2.50",
+            "Nb": "-",
+            "Ni": "-",
+            "Ti": "(4 × C) + 0.15 to 0.80"
+          }
+        },
+        {
+          "steel_name": "X6CrMoNb17-1",
+          "steel_number": "1.4526",
+          "composition": {
+            "C": "≤0.08",
+            "Si": "≤1.00",
+            "Mn": "≤1.00",
+            "P": "≤0.040",
+            "S": "≤0.015",
+            "N": "≤0.040",
+            "Cr": "16.0 to 18.0",
+            "Mo": "0.80 to 1.40",
+            "Nb": "≤0.50",
+            "Ni": "≤0.50",
+            "Ti": "-"
+          }
+        },
+        {
+          "steel_name": "X2CrTi21",
+          "steel_number": "1.4541",
+          "composition": {
+            "C": "≤0.030",
+            "Si": "≤1.00",
+            "Mn": "≤1.00",
+            "P": "≤0.050",
+            "S": "≤0.5",
+            "N": "-",
+            "Cr": "19.0 to 21.0",
+            "Mo": "≤0.50",
+            "Nb": "-",
+            "Ni": "≤0.50",
+            "Ti": "0.10 to 0.70"
+          }
+        },
+        {
+          "steel_name": "X2CrMoTi29-4",
+          "steel_number": "1.4617",
+          "composition": {
+            "C": "≤0.040",
+            "Si": "≤1.00",
+            "Mn": "≤1.40",
+            "P": "≤0.050",
+            "S": "≤0.5",
+            "N": "≤0.030",
+            "Cr": "28.0 to 30.0",
+            "Mo": "3.50 to 4.50",
+            "Nb": "-",
+            "Ni": "≤4.00",
+            "Ti": "0.10 to 0.70"
+          }
+        },
+        {
+          "steel_name": "X2CrNiMoTi22-1",
+          "steel_number": "1.4622",
+          "composition": {
+            "C": "≤0.030",
+            "Si": "≤1.00",
+            "Mn": "≤0.80",
+            "P": "≤0.040",
+            "S": "≤0.015",
+            "N": "≤0.030",
+            "Cr": "20.0 to 24.0",
+            "Mo": "-",
+            "Nb": "0.10 to 0.70",
+            "Ni": "-",
+            "Ti": "≤1.00"
+          }
+        }
+      ],
+      "notes": [
+        "Elements not listed in this table shall not be intentionally added to the steel without the agreement of the purchaser except for finishing the cast. All appropriate precautions are to be taken to prevent the addition of such elements from raw materials and scrap that would impair the properties and the suitability of the steel.",
+        "The stabilization may be made by titanium and/or niobium and/or zirconium. According to the atomic mass of these elements and the content of carbon and nitrogen, the equivalent titanium content shall be calculated.",
+        "Other elements: Cr + 3.3 Mo + 0.5 W ≥ 40.0 %.",
+        "Other elements: Y: 0.03 to 0.50 %; Cr + 3.3 Mo + 16 N ≥ 40.0 %.",
+        "Other elements: Y: 0.03 to 0.50 %; Cr + 3.3 Mo + 16 N ≥ 40.0 %."
+      ]
+    }
+  }
+}

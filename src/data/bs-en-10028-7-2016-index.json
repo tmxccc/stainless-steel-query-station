@@ -1,0 +1,161 @@
+{
+  "standard_info": {
+    "standard": "BS EN 10028-7:2016",
+    "title": "压力容器用平轧不锈钢产品技术标准",
+    "full_title": "Flat products made of steels for pressure purposes - Part 7: Stainless steels",
+    "publication_date": "2016",
+    "scope": "本标准规定了压力容器用平轧不锈钢产品的技术要求，包括化学成分、机械性能、制造工艺等方面的规定。",
+    "language": "英文",
+    "pages_covered": "10-14"
+  },
+  "steel_categories": {
+    "ferritic_steels": {
+      "description": "铁素体不锈钢",
+      "file": "bs-en-10028-7-2016-ferritic-steels.json",
+      "table_reference": "Table 1",
+      "page": 10,
+      "steel_count": 11,
+      "characteristics": [
+        "磁性材料",
+        "良好的耐腐蚀性",
+        "较低的镍含量",
+        "适用于中等腐蚀环境"
+      ]
+    },
+    "martensitic_steels": {
+      "description": "马氏体不锈钢",
+      "file": "bs-en-10028-7-2016-martensitic-steels.json",
+      "table_reference": "Table 2",
+      "page": 11,
+      "steel_count": 2,
+      "characteristics": [
+        "可热处理强化",
+        "高强度",
+        "磁性材料",
+        "适用于高强度要求的应用"
+      ]
+    },
+    "austenitic_steels": {
+      "description": "奥氏体不锈钢",
+      "file": "bs-en-10028-7-2016-chemical-composition.json",
+      "table_reference": "Table 4",
+      "page": 14,
+      "steel_count": 9,
+      "characteristics": [
+        "非磁性材料",
+        "优异的耐腐蚀性",
+        "良好的低温性能",
+        "易于加工成型"
+      ]
+    },
+    "austenitic_steels_extended": {
+      "description": "奥氏体不锈钢(扩展)",
+      "file": "bs-en-10028-7-2016-austenitic-steels-extended.json",
+      "table_reference": "Table 3",
+      "page": 12,
+      "steel_count": 5,
+      "characteristics": [
+        "标准奥氏体不锈钢牌号",
+        "广泛应用的通用牌号",
+        "良好的综合性能"
+      ]
+    },
+    "special_grades": {
+      "description": "特殊牌号不锈钢",
+      "file": "bs-en-10028-7-2016-special-grades.json",
+      "table_reference": "Special Grades",
+      "page": 13,
+      "steel_count": 10,
+      "characteristics": [
+        "特殊应用场合",
+        "高性能要求",
+        "特殊化学成分设计",
+        "超级奥氏体不锈钢"
+      ]
+    }
+  },
+  "chemical_elements": {
+    "primary_elements": [
+      {
+        "symbol": "C",
+        "name": "碳",
+        "role": "影响强度和硬度，控制在较低水平以保证耐腐蚀性"
+      },
+      {
+        "symbol": "Cr",
+        "name": "铬",
+        "role": "主要合金元素，提供耐腐蚀性，最低含量10.5%"
+      },
+      {
+        "symbol": "Ni",
+        "name": "镍",
+        "role": "稳定奥氏体组织，提高耐腐蚀性和韧性"
+      },
+      {
+        "symbol": "Mo",
+        "name": "钼",
+        "role": "提高耐点蚀和缝隙腐蚀性能"
+      },
+      {
+        "symbol": "N",
+        "name": "氮",
+        "role": "强化元素，提高强度和耐腐蚀性"
+      }
+    ],
+    "stabilizing_elements": [
+      {
+        "symbol": "Ti",
+        "name": "钛",
+        "role": "稳定化元素，防止晶间腐蚀"
+      },
+      {
+        "symbol": "Nb",
+        "name": "铌",
+        "role": "稳定化元素，防止晶间腐蚀"
+      }
+    ],
+    "trace_elements": [
+      {
+        "symbol": "P",
+        "name": "磷",
+        "role": "有害元素，需严格控制"
+      },
+      {
+        "symbol": "S",
+        "name": "硫",
+        "role": "有害元素，需严格控制"
+      },
+      {
+        "symbol": "Si",
+        "name": "硅",
+        "role": "脱氧元素，适量添加"
+      },
+      {
+        "symbol": "Mn",
+        "name": "锰",
+        "role": "脱氧脱硫，稳定奥氏体"
+      }
+    ]
+  },
+  "applications": [
+    "压力容器",
+    "化工设备",
+    "石油化工装置",
+    "核电设备",
+    "海洋工程",
+    "食品加工设备",
+    "制药设备"
+  ],
+  "file_structure": {
+    "total_files": 5,
+    "files": [
+      "bs-en-10028-7-2016-ferritic-steels.json",
+      "bs-en-10028-7-2016-martensitic-steels.json",
+      "bs-en-10028-7-2016-chemical-composition.json",
+      "bs-en-10028-7-2016-austenitic-steels-extended.json",
+      "bs-en-10028-7-2016-special-grades.json"
+    ]
+  },
+  "created_date": "2024-12-19",
+  "data_source": "BS EN 10028-7:2016 Standard Document Images"
+}

@@ -1,0 +1,48 @@
+{
+  "standard": "BS EN 10028-7:2016",
+  "title": "马氏体不锈钢化学成分分析表",
+  "description": "压力容器用平轧马氏体不锈钢产品技术标准",
+  "tables": {
+    "table_2": {
+      "title": "马氏体不锈钢化学成分分析",
+      "page": 11,
+      "steels": [
+        {
+          "steel_name": "X6CrMo13-4",
+          "steel_number": "1.4417",
+          "composition": {
+            "C": "≤0.05",
+            "Si": "≤0.70",
+            "Mn": "≤1.50",
+            "P": "≤0.040",
+            "S": "≤0.015",
+            "Cr": "12.0 to 14.0",
+            "Mo": "1.50 to 1.70",
+            "Ni": "≤1.5 to 4.5",
+            "Ti": "≤0.020"
+          }
+        },
+        {
+          "steel_name": "X6CrMo16-5-1",
+          "steel_number": "1.4418",
+          "composition": {
+            "C": "≤0.06",
+            "Si": "≤0.70",
+            "Mn": "≤1.50",
+            "P": "≤0.040",
+            "S": "≤0.015",
+            "Cr": "15.0 to 17.0",
+            "Mo": "0.80 to 1.50",
+            "Ni": "4.0 to 6.0",
+            "Ti": "≤0.020"
+          }
+        }
+      ],
+      "notes": [
+        "Elements not listed in this table shall not be intentionally added to the steel without the agreement of the purchaser except for finishing the cast. All appropriate precautions are to be taken to prevent the addition of such elements from raw materials and scrap that would impair the properties and the suitability of the steel.",
+        "The stabilization may be made by titanium and/or niobium and/or zirconium. According to the atomic mass of these elements and the content of carbon and nitrogen, the equivalent titanium content shall be calculated.",
+        "Other elements: Cr + 3.3 Mo + 0.5 W ≥ 40.0 %."
+      ]
+    }
+  }
+}

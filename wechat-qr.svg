@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300" height="400" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <!-- 背景 -->
+  <rect width="300" height="400" fill="#f8f9fa"/>
+  
+  <!-- 头像区域 -->
+  <rect x="75" y="20" width="150" height="80" rx="10" fill="#e9ecef"/>
+  <text x="150" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#6c757d">头像区域</text>
+  <text x="150" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#6c757d">(海豚图片)</text>
+  <text x="150" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#6c757d">(人物照片)</text>
+  
+  <!-- 群聊标题 -->
+  <text x="150" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333">群聊：青拓不锈钢问答服务群（网站会员）</text>
+  
+  <!-- 二维码区域 -->
+  <rect x="50" y="150" width="200" height="200" fill="white" stroke="#ddd" stroke-width="1"/>
+  
+  <!-- 模拟二维码图案 -->
+  <g fill="#000">
+    <!-- 左上角定位点 -->
+    <rect x="60" y="160" width="30" height="30" fill="#000"/>
+    <rect x="65" y="165" width="20" height="20" fill="#fff"/>
+    <rect x="70" y="170" width="10" height="10" fill="#000"/>
+    
+    <!-- 右上角定位点 -->
+    <rect x="210" y="160" width="30" height="30" fill="#000"/>
+    <rect x="215" y="165" width="20" height="20" fill="#fff"/>
+    <rect x="220" y="170" width="10" height="10" fill="#000"/>
+    
+    <!-- 左下角定位点 -->
+    <rect x="60" y="310" width="30" height="30" fill="#000"/>
+    <rect x="65" y="315" width="20" height="20" fill="#fff"/>
+    <rect x="70" y="320" width="10" height="10" fill="#000"/>
+    
+    <!-- 微信图标（中心） -->
+    <circle cx="150" cy="250" r="15" fill="#000"/>
+    <circle cx="145" cy="245" r="3" fill="#fff"/>
+    <circle cx="155" cy="245" r="3" fill="#fff"/>
+    <path d="M140 255 Q150 265 160 255" stroke="#fff" stroke-width="2" fill="none"/>
+    
+    <!-- 模拟数据点 -->
+    <rect x="100" y="180" width="3" height="3"/>
+    <rect x="110" y="180" width="3" height="3"/>
+    <rect x="120" y="180" width="3" height="3"/>
+    <rect x="130" y="180" width="3" height="3"/>
+    <rect x="140" y="180" width="3" height="3"/>
+    <rect x="160" y="180" width="3" height="3"/>
+    <rect x="170" y="180" width="3" height="3"/>
+    <rect x="180" y="180" width="3" height="3"/>
+    <rect x="190" y="180" width="3" height="3"/>
+    
+    <!-- 更多数据点 -->
+    <rect x="100" y="200" width="3" height="3"/>
+    <rect x="120" y="200" width="3" height="3"/>
+    <rect x="140" y="200" width="3" height="3"/>
+    <rect x="160" y="200" width="3" height="3"/>
+    <rect x="180" y="200" width="3" height="3"/>
+    <rect x="200" y="200" width="3" height="3"/>
+    
+    <rect x="110" y="220" width="3" height="3"/>
+    <rect x="130" y="220" width="3" height="3"/>
+    <rect x="170" y="220" width="3" height="3"/>
+    <rect x="190" y="220" width="3" height="3"/>
+    
+    <rect x="100" y="280" width="3" height="3"/>
+    <rect x="120" y="280" width="3" height="3"/>
+    <rect x="140" y="280" width="3" height="3"/>
+    <rect x="160" y="280" width="3" height="3"/>
+    <rect x="180" y="280" width="3" height="3"/>
+    <rect x="200" y="280" width="3" height="3"/>
+    
+    <rect x="110" y="300" width="3" height="3"/>
+    <rect x="130" y="300" width="3" height="3"/>
+    <rect x="170" y="300" width="3" height="3"/>
+    <rect x="190" y="300" width="3" height="3"/>
+  </g>
+  
+  <!-- 有效期提示 -->
+  <text x="150" y="375" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#666">该二维码7天内（8月13日前）有效，重新进入将更新</text>
+</svg>
