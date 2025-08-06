@@ -20,7 +20,7 @@ const SearchEnhancement = {
         this.bindEvents();
         this.loadSearchSuggestions();
         this.setupKeyboardNavigation();
-        this.setupAdvancedFilters();
+        // 移除对不存在方法的调用
         console.log('🔍 搜索增强模块初始化完成');
     },
 
